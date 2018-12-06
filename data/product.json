@@ -1,0 +1,237 @@
+{
+    "page": 1,
+    "limit": 30,
+    "total": 50,
+    "data": [
+        {
+            "id": 1,
+            "title": "Lumpur",
+            "price": "Rp 2.000 - Rp 2.500 ",
+            "url" : "images/lumpur.jpg",
+            "author": "Arika",
+            "category": "manis"
+          
+        },
+        {
+            "id": 2,
+            "title": "Donat",
+            "price" : "Rp 2.000 ( toping sesuai selera )s",
+            "url": "images/donut1.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 3,
+            "title": "Cum-Cum",
+            "price" : "Rp 2.000",
+            "url": "images/cum-cum.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 4,
+            "title": "Talam",
+            "price" : "Rp 2.000",
+            "url": "images/talam.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 5,
+            "title": "Lapis",
+            "price" : "Rp 2.000",
+            "url": "images/lapis.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 6,
+            "title": "Tart",
+            "price" : "Rp 2.000",
+            "url": "images/tart.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 7,
+            "title": "Onde-Onde",
+            "price" : " Rp 1.500 - Rp 2.000 ",
+            "url": "images/onde-onde.jpg",
+            "author": "Arika",
+            "category": "manis"
+            
+        },
+        {
+            "id": 8,
+            "title": "Spiku",  
+            "price" : "- Rp 2.000(2 sap) - Rp 2.500(3 sap)" , 
+            "url": "images/spiku.jpg",
+            "author": "Arika",
+            "category": "manis"
+           
+        },
+        {
+            "id": 9,
+            "title": "Roti Gulung",
+            "price" : "- Rp 22.000(kecil) - Rp 32.000(sedang) - Rp 42.000(besar)",
+            "url": "images/golong.jpg",
+            "author": "Arika",
+            "category": "manis"
+        },
+        {
+            "id": 10,
+            "title": "Cupcake",
+            "price" : "- Rp 4.000(coklat) - Rp 3.500(vanila)",
+            "url": "images/cupcake.jpg",
+            "author": "Arika",
+            "category": "manis"
+        },
+        {
+            "id": 11,
+            "title": "Roti Bolu",
+            "price" : "- Rp 25.000(kecil) - Rp 30.000(besar)",
+            "url": "images/roti.jpg",
+            "author": "Arika",
+            "category": "manis"
+        },
+        {
+            "id": 12,
+            "title": "Roti Gulung Coklat",
+            "price" : "- Rp 22.000(kecil) - Rp 32.000(sedang) - Rp 42.000(besar)",
+            "url": "images/golcoklat.jpg",
+            "author": "Arika",
+            "category": "manis"
+        },
+        {
+            "id": 13,
+            "title": "Bikang",
+            "price" : "Rp 2.000 ",
+            "url": "images/bikang.jpg",
+            "author": "Arika",
+            "category": "manis"
+        },
+        {
+            "id": 14,
+            "title": "Lemper",
+            "price": "- Rp 2.000 - Rp 3.000 (ayam) - Rp 2.500 - Rp 3.500 (daging)",
+            "url": "images/lemper.jpg",
+            "author": "Arika",
+            "category": "gurih"
+        },
+        {
+            "id": 15,
+            "title": "Resoles",
+            "price" : "- Rp 1.500 (sayur) - Rp 2.000 (mayo) - Rp2.000(keju) - Rp 2.000 (Resoles Roti)",
+            "url": "images/resol.png",
+            "author": "Arika",
+            "category": "gurih"
+        },
+        {
+            "id": 16,
+            "title": "Pastel",
+            "price": "Rp 1.500 - Rp 2.000",
+            "url": "images/pastel.jpg",
+            "author": "Arika",
+            "category": "gurih"
+        },
+        {
+            "id": 17,
+            "title": "Kue Bawang",
+            "price" : "Rp 2.500" , 
+            "url": "images/tak.jpg",
+            "author": "Arika",
+            "category": "gurih"
+        },
+        {
+            "id": 18,
+            "title": "Sosis Solo",
+            "price" : "- Rp 2.000 (ayam) - Rp.2000 (daging)",
+            "url": "images/sosissolo.jpg",
+            "author": "Arika",
+            "category": "gurih"
+        },
+        {
+            "id":16,
+            "title": "Industry Home",
+            "deskripsi" :"Industri tersebut telah berdiri sejak tahun 2000-an dan telah dikenal banyak orang sampai saat ini . Kami menerima berbagai pesanan mulai dari kue sampai nasi kotak pun kami terima",
+            "url" :"images/ya.jpg",
+            "author": "Arika",
+            "category": "Pokok"
+        },
+        {
+            "id": 17,
+            "title": "Bakery",
+            "url": "images/bakery.jpg",
+            "author": "Arika",
+            "category": "Pokok"
+        },
+        {
+            "id": 18,
+            "title": "Cake",
+            "url": "images/nggak.jpg",
+            "author": "Arika",
+            "category": "Pokok"
+        },
+        {
+            "id": 19,
+            "title": "Bude Nurul",
+            "url": "images/123.jpg.jpg",
+            "author": "Arika",
+            "category": "Profil"
+        },
+        {
+            "id": 20,
+            "title": "Mbak Nurul",
+            "url": "images/anyar_copy.png",
+            "author": "Arika",
+            "category": "logo"
+        },
+        {
+            "id": 21,
+            "title": "kue mangkok",
+            "url": "images/manis.jpg",
+            "author": "Arika",
+            "category": "background"
+        },
+        {
+            "id":22,
+            "title": "gambar1",
+            "url" :"images/yo.jpg",
+            "author": "Arika",
+            "category": "Pokok"
+        },
+        {
+            "id":23,
+            "title":"slide1",
+            "url":"./images/IMG20180901171455.jpg",
+            "author":"Arika",
+            "category":"slider"
+        },
+        {
+            "id":24,
+            "title":"slider2",
+            "url":"./images/IMG20180831154113.jpg",
+            "author":"Arika",
+            "category":"slider"
+        },
+       {
+           "id":25,
+           "title":"slider3",
+           "url":"./images/IMG20180901144125.jpg",
+           "author":"Arika",
+           "category":"slider"
+       },
+       {
+           "id":26,
+           "title":"slider4",
+           "url":"./images/IMG20180901145925.jpg",
+           "author":"Arika",
+           "category":"slider"
+       }
+    ]
+}

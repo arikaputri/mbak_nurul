@@ -2,127 +2,301 @@
 <html>
 
 <head>
-    <title>Mbak Nurul </title>
+    <title>Mbak Nurul</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great Vibes" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        h1 {
+            font-family: Great Vibes;
+        }
 
+        h4 {
+            font-family: Aclonica;
+        }
 
+        h3 {
+            font-family: Kaushan Script;
+        }
+
+        h5 {
+            font-family: Mali;
+        }
+
+        button {
+            font-family: Merienda;
+
+        }
+    </style>
 </head>
 
 <body>
 
-
-
     <nav>
 
         <div class="uk-position-top-center">
-
             <div class="uk-navbar-left">
-                    <img src="./images/anyar_copy.png" uk-logo>
+                <img src="./images/anyar_copy.png" uk-logo>
                 <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav">
+                    <ul class="uk-navbar-nav  uk-tab">
                         <li>
+
                             <a href="index.html">Beranda</a>
                         </li>
+
+
+                        <li>
+                            <li class="uk-active">
+                                <a href="admin-page.html">Produk</a>
+                            </li>
+
+                            <li>
+
+                                <a href="tentang kami.html">TENTANG KAMI</a>
+
+                            </li>
+
+                            <li>
+                                <a href="kontak.html">Kontak</a>
+                            </li>
                     </ul>
 
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="produk.html">Produk</a>
-                        </li>
-                    </ul>
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="tentang kami.html">Tentang Kami</a>
-                        </li>
-                    </ul>
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="#">Kontak</a>
-                        </li>
-                    </ul>
+
                 </div>
             </div>
 
         </div>
-        </div>
-        </div>
-
-        </div>
-        </div>
-        </div>
-
-        </div>
-        </div>
-        </ul>
-        </div>
-        </div>
-        </div>
-
     </nav>
     <div class="body">
         <div style="position: relative; top: 180px;">
 
             <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/nggak.jpg"
-                uk-img>
-                <h1 class="uk-margin-remove">Mbak Nurul Bakery</h1>
+                uk-scrollspy="cls: uk-animation-scale-up; repeat: true" uk-img>
+                <h1 style="color: #000;" class="uk-margin-remove">Mbak Nurul Bakery</h1>
             </div>
             <div class="body">
-                <div style="position: relative; top: 250px;">
-                    <div class="uk-position-center">
-                            <div uk-margin >
-                        <div uk-switcher="animation: uk-animation-fade">
-                            <button class="uk-button-large  uk-width-small uk-button-default" type="button">PASTRY</button>
-                            <button class="uk-button-large  uk-width-small uk-button-default" type="button">TART</button>
-                            <button class="uk-button-large  uk-width-medium uk-button-default" type="button">BASAH MANIS</button>
-                            <button class="uk-button-large  uk-width-small uk-button-default" type="button">PIE</button>
-                            <button class="uk-button-large  uk-width-medium uk-button-default" type="button">ROTI MANIS</button>
-                            <button class="uk-button-large  uk-width-small uk-button-default" type="button">PUDDING</button>
-                            <button class="uk-button-large  uk-width-medium uk-button-default" type="button">BASAH MANIS</button>
-                            <button class="uk-button-large  uk-width-small uk-button-default" type="button">DONUT</button>
-                            <button class="uk-button-large  uk-width-medium uk-button-default" type="button">BASAH GURIH</button>
-                        </div>
-                        
-                               
-                        <ul class="uk-switcher uk-margin">
-                                <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
-                                        <div>
-                                            <div class=" uk-padding"><a href="deskripsi.html">
-                                                    <img src="images/IMG20180902064041.jpg" width="300" height="100" alt=""></a> </div>
-                                        </div>
-                                        <div>
-                                            <div class=" uk-padding "> <img src="images/IMG20180902064156.jpg" width="300" height="100" alt=""></div>
-                                        </div>
-                                        <div>
-                                            <div class=" uk-padding "> <img src="images/IMG20180902065359.jpg" width="300" height="100" alt=""></div>
-                                        </div>
-                                    </div>
-                           
+                <div style="position: relative; top: 50px;">
+                    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div class=" uk-padding">
 
-                           <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
-                                <div>
-                                    <div class=" uk-padding"><a href="deskripsi.html">
-                                            <img src="images/IMG20180902064041.jpg" width="300" height="100" alt=""></a> </div>
-                                </div>
-                                <div>
-                                    <div class=" uk-padding "> <img src="images/IMG20180902064156.jpg" width="300" height="100" alt=""></div>
-                                </div>
-                                <div>
-                                    <div class=" uk-padding "> <img src="images/IMG20180902065359.jpg" width="300" height="100" alt=""></div>
-                                </div>
+                            <div uk-switcher="animation: uk-animation-fade">
+                                <button style="border: 4px #8B0000 ridge; background-color: #F5DEB3; " class="uk-button-large uk-width-medium uk-button-default "
+                                    uk-scrollspy="cls: uk-animation-slide-top; repeat: true">MANIS</button>
+                                <button style="border: 4px #8B0000 ridge; background-color: #F5DEB3; " class="uk-button-large uk-width-medium uk-button-default"
+                                    uk-scrollspy="cls: uk-animation-slide-top; repeat: true">GURIH</button>
+
+
                             </div>
 
-                          
-                   </ul>
-                      
+                            <ul class="uk-switcher uk-margin">
 
-                               
+                                <div id="manis" class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-padding; delay: 500; repeat: true">
+
+                                    <!-- <div>
+
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/lumpur.jpg" width="300" alt="">
+                                            <h3>Lumpur</h3>
+                                            <p> Rp 2.000 - Rp 2.500 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/donut1.jpg" width="300" alt="">
+                                            <h3>Donat</h3>
+                                            <p> Rp 2.000
+                                                <br>(toping dapat memilih sesuai selera) </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/cum-cum.jpg" width="300" alt="">
+                                            <h3>Cum - Cum</h3>
+                                            <p> Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/talam.jpg" width="300" alt="">
+                                            <h3>Kue Talam</h3>
+                                            <p> Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/lapis.jpg" width="300" alt="">
+                                            <h3>Kue Lapis</h3>
+                                            <p> Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/tart.jpg" width="300" alt="">
+                                            <h3>Tart</h3>
+                                            <p> Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/onde-onde.jpg" width="300" alt="">
+                                            <h3>Onde Onde</h3>
+                                            <p> Rp 1.500 - Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/spiku.jpg" width="300" alt="">
+                                            <h3>Spiku</h3>
+                                            <p> - Rp 2.000(2 sap)
+                                                <br> - Rp 2.500(3 sap) </p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/golong.jpg" width="300" alt="">
+                                            <h3>Roti Gulung</h3>
+                                            <p> - Rp 22.000(kecil)
+                                                <br> - Rp 32.000(sedang)
+                                                <br> - Rp 42.000(besar) </p>
+                                        </div>
+                                    </div> -->
+                                    <!-- <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/cupcake.jpg" width="300" alt="">
+                                            <h3>Cupcake</h3>
+                                            <p> - Rp 4.000(coklat)
+                                                <br> - Rp 3.500(vanila) </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/roti.jpg" width="300" alt="">
+                                            <h3>Roti Bolu</h3>
+                                            <p> - Rp 25.000(kecil)
+                                                <br>- Rp 30.000(besar) </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/golcoklat.jpg" width="300" alt="">
+                                            <h3>Roti Gulung Coklat</h3>
+                                            <p> - Rp 22.000(kecil)
+                                                <br> - Rp 32.000(sedang)
+                                                <br> - Rp 42.000(besar) </p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="uk-padding ">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/bikang.jpg" width="300" alt="">
+                                            <h3>Bikang</h3>
+                                            <p> Rp 2.000 </p>
+                                        </div>
+                                    </div> -->
+                                    
+                                </div>
+                                <div id="gurih" class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-padding; delay: 500; repeat: true">
+                                    <!-- <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/lemper.jpg" width="300" alt="">
+                                            <h3>Lemper</h3>
+                                            <p> - Rp 2.000 - Rp 3.000 (ayam)
+                                                <br> - Rp 2.500 - Rp 3.500 (daging) </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/resol.jpg" width="300" alt="">
+                                            <h3>Resoles</h3>
+                                            <p> - Rp 1.500 (sayur)
+                                                <br> - Rp 2.000 (mayo)
+                                                <br> - Rp2.000(keju)
+                                                <br> - Rp 2.000 (Resoles Roti) </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/pastel.jpg" width="300" alt="">
+                                            <h3>Pastel</h3>
+                                            <p> Rp 1.500 - Rp 2.000 </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/tak.jpg" width="300" alt="">
+                                            <h3>Kue Bawang</h3>
+                                            <p> Rp 2.500</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-padding">
+                                            <img style="border: 5px #8B0000 ridge; padding: 10px;" src="images/sosissolo.jpg" width="300" alt="">
+                                            <h3>Sosis Solo</h3>
+                                            <p> - Rp 2.000 (ayam)
+                                                <br> - Rp.2000 (daging) </p>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </ul>
+                        </div>
                     </div>
-
                 </div>
+            </div>
+
+
+            <div class="body">
+                <div style="position: relative; top: 200px;">
+
+                    <div style="background: #000; color: #fff; padding: 20px; text-align: center;">
+                        <h4 style="color: #fff;">Kunjungi Kami!!</h4>
+                        <a href="https://api.whatsapp.com/send?phone=6285755208577&text=Assalamualaikum%20*Mbak*%20*Nurul*" class=" uk-margin-medium-right"
+                            uk-icon="icon: whatsapp; ratio: 1.5"></a>
+                        <a href="https://www.facebook.com/nurul.halima.75" class="uk-margin-medium-right" uk-icon="icon: facebook; ratio: 1.5"></a>
+                        <a href="mailto:arikaputrifdl@gmail.com" uk-icon="icon: mail; ratio: 1.5"></a>
+                        <div style="position: relative; top: 18px;">
+                            <a href="kontak.html" uk-icon="icon: location; ratio: 2"></a>
+
+                            <div style="position: relative; top: 5px;">
+                                <span class="foot-text">© 2018 by Mbak Nurul Kue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <script>
+        // Make a request for a user with a given ID
+        axios.get('/data/product.json')
+            .then(function (response) {
+                var json = response.data.data;
+                var gurih = json.filter(obj => obj.category == 'gurih');
+                var manis = json.filter(obj => obj.category == 'manis');
+                console.log(gurih);
+                console.log(manis);
+                gurih.forEach(function (obj) {
+                    document.getElementById("gurih").innerHTML += '<div><div class="uk-padding"><img style="border: 5px #8B0000 ridge; padding: 10px;" src="'+obj.url+'" width="300" alt=""><h3>'+obj.title+'</h3><p> '+obj.price+' </p></div></div>';
+                });
+                manis.forEach(function (obj) {
+                    document.getElementById("manis").innerHTML += '<div><div class="uk-padding"><img style="border: 5px #8B0000 ridge; padding: 10px;" src="'+obj.url+'" width="300" alt=""><h3>'+obj.title+'</h3><p> '+obj.price+' </p></div></div>';
+                });
+               
+            })
+            .catch(function (error) {
+            })
+            .then(function () {
+            });
+    </script>
 </body>
 
 </html>
